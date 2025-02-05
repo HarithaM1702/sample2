@@ -1,0 +1,118 @@
+/* Basic reset and styling */
+/* Basic reset and styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column; /* Ensure the sections are stacked vertically */
+    padding: 20px; /* Padding around the page */
+}
+
+/* Contact Info Section (First Part with Name and First Image) */
+.contact-info {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;  /* Set the width of the container to a percentage */
+    max-width: 900px;  /* Maximum width */
+    margin-bottom: 20px; /* Space below the first section */
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between; /* Space out the left and right sections */
+    align-items: flex-start;
+}
+
+.details-left {
+    width: 60%;  /* Left part with the contact details */
+    padding-right: 20px; /* Add padding on the right to create space between text and image */
+}
+
+.details-right {
+    width: 40%;  /* Right part for the images */
+}
+
+.name-title h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.name-title p {
+    margin: 4px 0;
+    font-size: 14px;
+    color: #777;
+}
+
+/* Partner Text Styling - pink color */
+.partner-text {
+    color: pink;  /* Change the color to pink */
+}
+
+hr {
+    margin: 20px 0;
+    border: 0;
+    border-top: 1px solid #ddd;
+    width: 100%;
+}
+
+.contact-details .detail {
+    margin: 10px 0;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+
+.contact-details .detail i {
+    margin-right: 10px;
+    font-size: 18px;
+    color: pink; /* Pink color for the icons */
+}
+
+.contact-details .detail span {
+    color: #333;
+}
+
+/* Icons size */
+.phone-icon, .email-icon, .location-icon {
+    font-size: 20px;
+}
+
+/* Image styling */
+.profile-image {
+    width: 100%;  /* Make image cover the full width of its container */
+    height: auto; /* Adjust the height automatically */
+    object-fit: cover;   /* Ensures the image maintains its aspect ratio and covers the area */
+    border-radius: 10px;  /* Optional: gives the image rounded corners */
+}
+/* New Section (Second Image) */
+.image-section {
+    width: 80%;  /* Keep the image section the same width as the first section */
+    max-width: 900px;
+    margin-top: 20px; /* Add space above the second image */
+    display: flex;
+    justify-content: center; /* Center the image */
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}ction {
+    width: 80%;  /* Keep the image section the same width as the first section */
+    max-width: 900px;
+    margin-top: 20px; /* Add space above the second image */
+    display: flex;
+    justify-content: center; /* Center the image */
+    align-items: center;
+}
+
+.second-image {
+    width: 100%;  /* Make the image cover the full width of the container */
+    height: auto; /* Adjust the height automatically */
+    object-fit: cover;   /* Ensures the image maintains its aspect ratio */
+    border-radius: 10px;  /* Optional: gives the image rounded corners */
+}
